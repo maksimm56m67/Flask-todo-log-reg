@@ -1,0 +1,40 @@
+body{
+    transition: 1s linear;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.fone{
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+.entry{
+    background-color: DarkSlateGray;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    margin: -125px 0 0 -125px;
+    padding: 4px;
+    display: block;
+}
+button, p, label{
+    font-size: 18px;
+    font-family: 'PT Mono', monospace;
+}
+.if-not{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.if-not a{
+    margin-left: 5px;
+}
